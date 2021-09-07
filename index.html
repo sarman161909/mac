@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Sales</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="flex">
+            <div class="left-section w-2/4">
+                <img class="w-3/4" src="images/mac.png" alt="">
+            </div>
+            <div class="right-section w-3/4">
+                    <div class="title">
+                        <h1 class="text-5xl">Customize your Blue-24-Inc iMac with Apple M1 Chip. </h1>
+                    </div>
+                    
+                    <div class="details w-3/4 2xl mt-4">
+                        <p class="text-gray-900 text-justify font-medium mb-6">Apple a1 Chip with 8-core CPU with performance cores and 4 eddiciency cores. 7-core GPU, and 16-core Neural engine 8gb unified memory 256GB SSD storage Two Thunderbolt/ USB 4 Ports Magic Mouse Magic Keybord.US Engish.</p>
+                    </div>
+
+                    <div class="button-section">
+                        <div class="Memory mt-8">
+                            <h3 class="font-bold">Memory</h3>
+                            <button id="8Gb-memory" class="bg-gray-200 p-2 rounded text-gray-900 font-medium">8GB Unfield Memory</button>
+                            <button id="16Gb-Memory" class="bg-gray-200 p-2 rounded text-gray-900 font-medium">16Gb Unfield Memory</button>
+                        </div>
+
+                        <div class="Memory mt-8">
+                            <h3 class="font-bold">Storage</h3>
+                            <button id="256-Storage" class="bg-gray-100 p-2 rounded text-gray-900 font-medium">256GB SSD Storage</button>
+                            <button id="512-Storage" class="bg-gray-100 p-2 rounded text-gray-900 font-medium">512SSD Storage</button>
+                            <button id="1tb-Storage" class="bg-gray-100 p-2 rounded text-gray-900 font-medium">1TB SSD Storage</button>
+                        </div>
+                        <div class="Memory mt-8">
+                            <h3 class="font-bold">Choose Your Delivery Option</h3>
+                            <button id="free-delivery" class="bg-gray-100 p-2 rounded text-gray-900 font-medium">Thursday September 9 Free Prime Delivery</button>
+                            <button id="friday-Delivery" class="bg-gray-100 p-2 rounded text-gray-900 font-medium">Friday September 10 Free Prime Delivery</button>
+                        </div>
+
+                    </div>
+                    <div class="pric-details">
+                        <div class="best-price grid grid-cols-4 mt-5 font-bold">
+                            <h3 class="disply-block">Best Price</h3>
+                            <h4>$<span id="">1299</span></h4>
+                        </div>
+                            <div class="border border-balck-100 w-56"></div>
+                        <div class="best-price grid grid-cols-4 mt-5 font-bold">
+                            <h3 class="disply-block">Extra Memory Cost</h3>
+                            <h4>$<span id="Extra-memory">0</span></h4>  
+                        </div>
+                        <div class="border border-balck-600 w-56"></div>
+                        <div class="best-price grid grid-cols-4 mt-5 font-bold">
+                            <h3 class="disply-block">Extra Storage Cost</h3>
+                            <h4>$<span id="extra-Storage">0</span></h4>
+                     </div>
+                     <div class="border border-balck-100 w-56"></div>
+
+                     <div class="best-price grid grid-cols-4 mt-5 font-bold">
+                        <h3 class="">Delivery Charge</h3>
+                        <h4>$<span id="Deliver-Charge">0</span></h4>
+                 </div>
+             <div class="border border-gray-800 w-56 font-bold"></div>
+                    </div>
+                    <div class="best-price grid grid-cols-4 mt-5 font-bold">
+                        <h3 class="">Total Price</h3>
+                        <h4 class="">$<span id="final-total">1299</span></h4>
+            </div>
+            <div class="border border-balck-100 w-56"></div>
+            <div class="add-promo mt-4">
+                <h3 class="font-bold" >Add Promo Code</h3>
+                <input id="input-field" class="w-56 border rounded bg-gray-100" type="text" placeholder="">
+                <button id="apply-btn" class="bg-red-600 p-1 rounded text-white">Apply</button>
+            </div>
+        
+        </section>
+
+        <div class="border border-black-600 w-100 mt-4"></div>
+
+        <div class="total">
+            <h1 class="text-4xl text-center">Total:$ <span id="final-total">1299</span> </h1>
+        </div>
+        
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>
